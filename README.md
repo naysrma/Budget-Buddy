@@ -1,73 +1,85 @@
-# Getting Started with Create React App
+# Finance Tracker App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A personal finance management application built with **React.js**, **CSS**, **Ant Design**, and **Firebase**. This app allows users to add and track their income and expenses, visualize spending patterns using charts, and manage finances efficiently.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Add Income/Expenses:** Easily input your income or expenses and categorize them.
+- **Visual Representation:** View your financial data through dynamic pie charts and graphs using **Ant Design**.
+- **Categorization:** Categorize your transactions for better clarity on spending habits.
+- **Real-time Data:** All data is stored and retrieved in real-time using **Firebase**.
+- **User-friendly Interface:** Responsive and easy-to-use interface built with **React.js** and **CSS**.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React.js**: Frontend framework for building the UI.
+- **CSS**: Styling for a clean and responsive design.
+- **Ant Design**: Used for creating charts and user interface components.
+- **Firebase**: Backend as a service for real-time data storage and authentication.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation and Setup
 
-### `npm test`
+To run this project locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
 
-### `npm run build`
+    ```bash
+    git clone https://github.com/YOUR-USERNAME/finance-tracker.git
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Navigate to the project directory:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    ```bash
+    cd finance-tracker
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Install the necessary dependencies:
 
-### `npm run eject`
+    ```bash
+    npm install
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Set up Firebase:
+    - Create a project in [Firebase](https://console.firebase.google.com/).
+    - Set up Firestore and Firebase Authentication.
+    - Create a `.env` file in the root directory and add your Firebase configuration:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    ```bash
+    REACT_APP_API_KEY=your-api-key
+    REACT_APP_AUTH_DOMAIN=your-auth-domain
+    REACT_APP_PROJECT_ID=your-project-id
+    REACT_APP_STORAGE_BUCKET=your-storage-bucket
+    REACT_APP_MESSAGING_SENDER_ID=your-messaging-sender-id
+    REACT_APP_APP_ID=your-app-id
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+5. Start the development server:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    ```bash
+    npm start
+    ```
 
-## Learn More
+6. Open your browser and visit `http://localhost:3000`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Add Transactions**: Use the form to add income or expenses with a category and amount.
+- **View Charts**: Navigate to the dashboard to see your expenses and income visualized through pie charts and graphs.
+- **Data Sync**: All transactions are stored securely and updated in real-time using Firebase.
 
-### Code Splitting
+## Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+###Login  Page
+![Uploading image.png…]()
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Dashboard
+![image](https://github.com/user-attachments/assets/f83c0fcc-1081-49bf-a1cc-37e8509cd7d1)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Add Expense
+![image](https://github.com/user-attachments/assets/f8cda733-4358-49d3-b9fa-001c93fed52b)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# Bucket_Basket" 
-"# Bucket_Basket" 
-"# Budget-Buddy" 
