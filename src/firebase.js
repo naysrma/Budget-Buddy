@@ -5,7 +5,7 @@ import { getFirestore, doc, setDoc } from "firebase/firestore";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCI_AfY7xr0IO90wAcBnBcxvdVQ1jpDAsY",
+  apiKey: "enter you api",
   authDomain: "budget-buddy-f6f78.firebaseapp.com",
   projectId: "budget-buddy-f6f78",
   storageBucket: "budget-buddy-f6f78.appspot.com",
