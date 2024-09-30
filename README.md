@@ -69,17 +69,9 @@ To run this project locally, follow these steps:
 
 ## Screenshots
 
-###Login  Page
-![Uploading image.png…]()
+![Screenshot (47)](https://github.com/user-attachments/assets/f27a7429-ea4e-4fe1-b7d4-bd12a7895dd1)
 
+![Screenshot (48)](https://github.com/user-attachments/assets/4bdf44a1-d94b-44ce-a6d1-758151e6a72f)
 
-### Dashboard
-![image](https://github.com/user-attachments/assets/f83c0fcc-1081-49bf-a1cc-37e8509cd7d1)
-
-
-### Add Expense
-![image](https://github.com/user-attachments/assets/f8cda733-4358-49d3-b9fa-001c93fed52b)
-
-
-
+![Screenshot (49)](https://github.com/user-attachments/assets/57441439-6f72-4ebb-897a-8160507e6b6c)
 
